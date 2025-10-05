@@ -1,0 +1,28 @@
+    1  git config --global user.name "Dmytro"
+    2  git config -- global user.email "ghostik72@gmail.com"
+    3  git config --global user.email "ghostik72@gmail.com"
+    4  git clone https://github.com/ghostik72-cpu/HW_10.git
+    5  cd hw_10
+    6  touch text_ignore.txt
+    7  nano .gitignore
+    8  nano .gitignore.txt
+    9  git status
+   10  git add
+   11  git commit -m "1"
+   12  touch main_test.txt
+   13  git add
+   14  git commit -m "2"
+   15  git branch develop
+   16  git checkout develop
+   17  touch develop_test.txt
+   18  git add
+   19  git commit -m "3"
+   20  nano develop_test.txt
+   21  git status
+   22  git add
+   23  git commit -m "4"
+   24  git checkout main
+   25  git merge develop
+   26  git log
+   27  command_list.csv
+   28  history>command_list.csv
